@@ -51,7 +51,7 @@ while [[ $# -gt 0 ]]; do
     *)
       echo "Unknown argument: $1" >&2
       echo; usage; exit 2 ;;
-  caseesac
+  esac
 done
 
 # --- Derive defaults per requirement: if no args, start = now-3d, end = now ---
